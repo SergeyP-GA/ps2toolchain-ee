@@ -78,7 +78,7 @@ for TARGET in "mips64r5900el-ps2-elf"; do
     --disable-nls \
     --disable-tls \
     --enable-cxx-flags=-G0 \
-    --enable-threads=posix \
+    --enable-threads=single \
     $TARG_XTRA_OPTS
 
   ## Compile and install.
