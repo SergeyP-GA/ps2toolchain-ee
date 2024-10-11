@@ -71,10 +71,10 @@ for TARGET in "mips64r5900el-ps2-elf"; do
     --enable-newlib-nano-malloc \
     --disable-newlib-unbuf-stream-opt \
     --enable-lite-exit \
-    --enable-newlib-global-atexit \
+    --disable-newlib-global-atexit \
     --enable-newlib-nano-formatted-io \
     --enable-newlib-retargetable-locking \
-    --enable-newlib-multithread \
+    --disable-newlib-multithread \
     --disable-nls \
     $TARG_XTRA_OPTS
 
