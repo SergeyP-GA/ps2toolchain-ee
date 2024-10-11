@@ -70,8 +70,6 @@ for TARGET in "mips64r5900el-ps2-elf"; do
     --disable-newlib-wide-orient \
     --enable-newlib-nano-malloc \
     --disable-newlib-unbuf-stream-opt \
-    --enable-lite-exit \
-    --disable-newlib-global-atexit \
     --enable-newlib-nano-formatted-io \
     --enable-newlib-retargetable-locking \
     --disable-newlib-multithread \
