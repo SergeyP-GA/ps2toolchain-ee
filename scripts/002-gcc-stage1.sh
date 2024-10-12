@@ -82,6 +82,7 @@ for TARGET in "mips64r5900el-ps2-elf"; do
     --disable-libgomp \
     --disable-libmudflap \
     --disable-libquadmath \
+    --enable-libstdcxx-static-eh-pool \
     $TARG_XTRA_OPTS
 
   ## Compile and install.
