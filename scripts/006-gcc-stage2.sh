@@ -75,8 +75,8 @@ for TARGET in "mips64r5900el-ps2-elf"; do
 #    --with-newlib \
 #    --disable-libssp \
 #    --disable-multilib \
-    --disable-nls \
-    --disable-tls \
+#    --disable-nls \
+#    --disable-tls \
     --enable-cxx-flags=-G0 \
     --enable-libstdcxx-static-eh-pool \
     --disable-libstdcxx-threads \
