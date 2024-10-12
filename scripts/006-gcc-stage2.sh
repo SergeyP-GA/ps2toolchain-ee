@@ -77,7 +77,9 @@ for TARGET in "mips64r5900el-ps2-elf"; do
     --disable-multilib \
     --disable-nls \
     --disable-tls \
-    --enable-cxx-flags=-G0 \
+    --enable-cxx-flags=-G0 -fno-exceptions \
+    --enable-libstdcxx-static-eh-pool \
+    --disable-libstdcxx-threads \
     --disable-threads \
     $TARG_XTRA_OPTS
 
